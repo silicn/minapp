@@ -1,0 +1,54 @@
+<view class="page">
+  <view class="page_bd">
+
+    <view class="page_hd header">
+      <view class="header_left">
+        <view >{{userInfo.nickName}}</view>
+        <view style="font-size:13px;color:#999">激活享花卡,免费获取额度</view>
+      </view>
+      <view class="header-right">
+        <image wx:if="{{hasUserinfo}}" src="{{userInfo.avatarUrl}}" mode="cover" style="border-radius: 25px;width:50px;height:50px;margin-right:40rpx"></image>
+       <block wx:else>
+        <button class="weui-btn login" size="mini" bindtap="showToast" >去登陆</button>
+       </block>
+       
+      </view>
+    </view>
+    <!-- 分割线 -->
+    <view class="section_line"></view>
+    <!-- 样式 -->
+    <view class="weui-cells weui-cells_after-title"> 
+      <!-- cell -->
+      <view class="weui-cell">
+          <view class="weui-cell__bd">个人资料</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </view>
+    </view>
+      <!-- 分割线 -->
+    <view class="section_line"></view>
+    <!-- cell -->
+    <view class="weui-cells weui-cells_after-title"> 
+      <view class="weui-cell ">
+        <view class="weui-cell__bd">帮助中心</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </view>
+      <view class="weui-cell ">
+        <view class="weui-cell__bd">意见反馈</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </view>
+    </view> 
+
+     <!-- 分割线 -->
+    <view class="section_line"></view>
+
+    <view class="weui-cells weui-cells_after-title"> 
+      <!-- cell -->
+      <navigator class="weui-cell" url="../setting/setting">
+          <view class="weui-cell__bd">设置</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+    </view>
+
+
+  </view>
+</view>

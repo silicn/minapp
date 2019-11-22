@@ -1,0 +1,6 @@
+/* pages/home/home.wxss */
+.back{
+  background-color: cyan;
+  flex-direction: column;
+  height:300px;
+}

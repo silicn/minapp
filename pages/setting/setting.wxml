@@ -1,0 +1,47 @@
+<!--pages/setting/setting.wxml-->
+<view class="page">
+    <view class="page_hd">
+        <view class="weui-cells weui-cells_after-title"> 
+      <view class="weui-cell ">
+        <view class="weui-cell__bd">安全中心</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </view>
+      <navigator  class="weui-cell " bindtap = "cleanMem">
+        <view class="weui-cell__bd">清除缓存</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">{{memSize}}</view>
+      </navigator>
+      <navigator url="../about/about" class="weui-cell ">
+        <view class="weui-cell__bd">关于我们</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+
+      <view class="weui-cell ">
+        <view class="weui-cell__bd exst" bindtap = "openDialog">退出当前账号</view>
+      </view>
+    </view> 
+
+
+
+    </view>
+
+
+
+    <view class="weui-demo-dialog {{istrue ? 'weui-demo-dialog_show' : ''}}">
+      <view class="weui-mask" bindtap="closeDialog"></view>
+      <view class="weui-actionsheet {{istrue ? 'weui-actionsheet_toggle' : ''}}" catchtap="stopEvent">
+          <view class="weui-actionsheet__title">
+              <view class="weui-actionsheet__title-text">您确认要退出登录吗</view>
+          </view>
+          <view class="weui-actionsheet__menu">
+              <view class="weui-actionsheet__cell">确认</view>
+              <view class="weui-actionsheet__cell weui-actionsheet__cell_warn" bindtap="closeDialog">取消</view>
+          </view>
+          <view class="weui-actionsheet__action">
+              <view class="weui-actionsheet__cell" bindtap="closeDialog">取消</view>
+          </view>
+      </view>
+    </view>
+
+
+
+</view>

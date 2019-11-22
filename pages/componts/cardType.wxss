@@ -1,0 +1,10 @@
+/* pages/componts/cardType.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: thistle ;
+    padding: 10rpx;
+    margin: 0rpx 5rpx;
+    border-radius: 10rpx;
+}

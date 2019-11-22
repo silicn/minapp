@@ -1,0 +1,7 @@
+/* utils/section/section.wxss */
+
+.content{
+  height: 120rpx;
+  background-color: orchid;
+  width: 100px;
+}

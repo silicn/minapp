@@ -1,0 +1,5 @@
+<!--pages/componts/cardType.wxml-->
+<view class="container">
+    <view class="title" style="font-size:14px">{{title}}</view>
+    <image style="background-color:F7F7F7;width:auto;height:160rpx"/>
+</view>

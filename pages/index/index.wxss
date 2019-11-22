@@ -1,0 +1,111 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  align-content: center;
+  background-color: cyan;
+  border-radius: 10rpx;
+  margin: 10px 20px;
+  height: 360rpx;
+}
+
+.page_bd{
+  margin: 0px 23px;
+}
+
+
+.page_tqhk{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: violet; */
+}
+
+.btn{
+  /* height: 60rpx;
+  line-height: 60rpx; */
+  font-size: 28rpx;
+  border-radius: 40rpx;
+  background-color: red;
+  color: white;
+  margin: 10px 0px;
+}
+
+.mine_order{
+  background-color: yellow;
+  white-space: nowrap;
+  visibility: visible;
+}
+
+.mine_order_hidden{
+  background-color: yellow;
+  white-space: nowrap;
+  visibility:hidden;
+}
+
+.item{
+  display: inline-block;
+  width: 50%
+}
+
+.card_type{
+  display: inline-block;
+  width: 33%;
+}
+
+.mine_limit{
+  margin: 20rpx 0rpx;
+}
+.mine_limit_bd{
+  background-color:#F7F7F7;
+  padding:20rpx;
+  border-radius: 10rpx;
+}
+.mine_limit_use{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mine_limit_progress{
+  padding: 20rpx;
+  background-color: #F9F3DD;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+
+.bindcard_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+page{
+  background-color:white;
+  font-size: 16px;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}

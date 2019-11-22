@@ -1,0 +1,9 @@
+<!--pages/login/login.wxml-->
+<view class="page">
+    <text style="font-size:25px">欢迎使用真享花</text>
+    <view class="page_bd">
+        
+    </view>
+
+
+</view>

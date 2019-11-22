@@ -1,0 +1,67 @@
+<!--index.wxml-->
+<view class="page">
+  <!-- 头部视图 -->
+  <view class="page_hd">
+
+    <view class="card">
+      <view style="margin-left:20px;color:white">15555555555</view>
+      <view style="margin-left:20px;color:white">小王在</view>
+    </view>
+
+  </view>
+
+   <view class="page_bd page_tqhk">
+       <view style="font-size:15px"> 下月待还(元):1252.0</view>
+       <button class="weui-btn btn" size="mini" bindtap="tiqianhuankuan">提前还款</button>
+    </view>
+
+  <view class="page_bd">
+    <!-- 我的账单 -->
+    <scroll-view class="{{show?'weui-scrollview mine_order':'weui-scrollview mine_order_hidden'}}"  scroll-x="{{true}}"scroll-with-animation="{{true}}" >
+        <billView class="item" title="我的账单"></billView>
+        <billView class="item" title="设置分期" btnTitle="去吧"></billView>
+        <billView class="item" title="设置分期" btnTitle="去吧"></billView>
+    </scroll-view>
+
+    <!-- 我的额度 -->
+    <view class="mine_limit">
+      <view class="mine_limit_title" style="font-size:16rpx:font-weight:700">我的额度</view>
+        
+        <view class="mine_limit_bd" >
+          <view class="mine_limit_use">
+            <view class="mine_limit_use_left">
+              <view style="font-size:12px;color:#999;">已用额度(元)</view>
+              <view style="font-size:12px;color:#666;">188.00</view>
+            </view>
+            <view class="mine_limit_use_right">
+               <view style="font-size:12px;color:#999;">剩余额度(元)</view>
+               <view style="font-size:12px;color:#666;">812.00</view>
+            </view>
+          </view>
+          <!-- 进度条 -->
+          <progress   percent="20" activeColor="red" border-radius= "5"/> 
+
+          <!-- 进度说明 -->
+          <view class="mine_limit_progress">
+            <view style="font-size:8px;color:#EBB45F">11月20日 20:12</view>
+            <view style="font-size:10px;color:#EBB45F">一条信息来自于商城</view>
+          </view>
+    
+        </view>
+        
+    </view>
+
+    <!-- 立即绑卡 -->
+    <view class="mine_limit">
+
+      <view style="font-size:16rpx:font-weight:700">立即绑卡</view>
+      <view class="bindcard_content">
+        <cardType class="card_type" title="微信"></cardType>
+        <cardType class="card_type" title="支付宝"></cardType>
+        <cardType class="card_type" title="手机钱包"></cardType>
+      </view>
+
+    </view>
+
+  </view>
+</view>

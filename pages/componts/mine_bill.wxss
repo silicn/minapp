@@ -1,0 +1,9 @@
+/* pages/componts/mine_bill.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: thistle ;
+    padding: 10rpx;
+    margin: 0rpx 5rpx;
+    border-radius: 10rpx;
+}
