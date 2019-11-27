@@ -7,3 +7,8 @@
     margin: 0rpx 5rpx;
     border-radius: 10rpx;
 }
+.btn{
+    font-size: 12px;
+    color: cornflowerblue;
+    
+}

@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "billView":"../componts/mine_bill",
-    "cardType":"../componts/cardType"
+    "cardType":"../componts/cardType",
+    "colorBtn":"../componts/colorBtn"
   },
   "navigationBarTitleText":"享花卡"
 }

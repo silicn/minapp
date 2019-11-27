@@ -30,6 +30,21 @@ Page({
     
   },
 
+  gotoSee:function(){
+    wx.showToast({
+      title: '去看看',
+      icon: 'success',
+      duration: 3000
+  })
+  },
+  goToMineBill:function(){
+    wx.showToast({
+      title: '我的账单',
+      icon: 'success',
+      duration: 3000
+  })
+  },
+
   onLoad: function () {
     if (app.globalData.userInfo) {
       this.setData({

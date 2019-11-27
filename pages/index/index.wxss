@@ -26,8 +26,8 @@
   align-items: left;
   justify-content: center;
   align-content: center;
-  background-color: cyan;
-  border-radius: 10rpx;
+  background: linear-gradient(to right,#FF5A4B,#FF6E73);
+  border-radius: 20rpx;
   margin: 10px 20px;
   height: 360rpx;
 }
@@ -42,6 +42,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px ;
+  margin-bottom: 10px;
   /* background-color: violet; */
 }
 
