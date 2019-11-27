@@ -1,6 +1,8 @@
 <!--pages/componts/mine_bill.wxml-->
-<view class="container">
+<view class="container" style="background:{{color}}">
     <view style="font-size:13px; font-weight:500;margin-top:8rpx">{{title}}</view>
-    <view style="font-size:12px; color:cornflowerblue;margin:8rpx 0rpx" catchtap='_billAction'>本月账单</view>
+    <block wx:if="{{showBill}}">
+         <view style="font-size:10px; color:#999999;margin:8rpx 0rpx" catchtap='_billAction'>{{subTitle}}</view>
+    </block>
     <view class="btn" catchtap='_btnAction'>{{btnTitle?btnTitle:"去看看"}}>></view>
 </view>

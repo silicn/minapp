@@ -5,14 +5,18 @@ Component({
    */
   properties: {
     title:String,
+    subTitle:String,
     btnTitle:String,
+    showBill:Boolean,
+    color:String
   },
 
   /**
    * 组件的初始数据
    */
   data: {
- 
+    showBill:true,
+    color:"white"
   },
 
   /**

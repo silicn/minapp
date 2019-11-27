@@ -2,13 +2,13 @@
 .container{
     display: flex;
     flex-direction: column;
-    background-color: thistle ;
+    background: thistle ;
     padding: 10rpx;
     margin: 0rpx 5rpx;
     border-radius: 10rpx;
+    height: 150rpx;
 }
 .btn{
-    font-size: 12px;
+    font-size: 11px;
     color: cornflowerblue;
-    
 }

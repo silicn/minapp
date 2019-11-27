@@ -11,7 +11,7 @@
   </view>
 
    <view class="page_bd page_tqhk">
-       <view style="font-size:15px"> 下月待还(元):1252.0</view>
+       <view style="font-size:15px; font-weight:600"> 下月待还(元):1252.0</view>
        <!-- <button class="weui-btn btn" size="mini" bindtap="tiqianhuankuan">提前还款</button> -->
        <colorBtn title = "提前还款" bindtap="goToMineBill"></colorBtn>
     </view>
@@ -19,9 +19,9 @@
   <view class="page_bd">
     <!-- 我的账单 -->
     <scroll-view class="weui-scrollview mine_order"  scroll-x="{{true}}"scroll-with-animation="{{true}}" >
-        <billView class="item" title="我的账单" bind:btnAction="gotoSee" bind:billAction="goToMineBill"></billView>
-        <billView class="item" title="设置分期" btnTitle="去吧"></billView>
-        <billView class="item" title="设置分期" btnTitle="去吧"></billView>
+        <billView class="item" title="我的账单" color="#EFFAFF" subTitle="还款日11月11日" bind:btnAction="gotoSee" bind:billAction="goToMineBill"></billView>
+        <billView class="item" title="设置分期" color="#FFF8EE" btnTitle="去设置" subTitle="不分期" showBill="true"></billView>
+        <billView class="item" title="定时还款" btnTitle="去还款"></billView>
     </scroll-view>
 
     <!-- 我的额度 -->

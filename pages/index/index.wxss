@@ -33,7 +33,7 @@
 }
 
 .page_bd{
-  margin: 0px 23px;
+  margin: 0px 20px;
 }
 
 
@@ -58,7 +58,7 @@
 }
 
 .mine_order{
-  background-color: yellow;
+  /* background-color: yellow; */
   white-space: nowrap;
   visibility: visible;
 }
@@ -76,6 +76,7 @@
 
 .card_type{
   display: inline-block;
+  background:#F7F7F7;
   width: 33%;
 }
 
