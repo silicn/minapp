@@ -1,0 +1,17 @@
+/* pages/componts/colorBtn.wxss */
+.container{
+    display: flex;
+    background: linear-gradient(to right,#FF5A4B,#FF6E73);
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10rpx;
+    border-radius: 30px;
+}
+
+.titleView{
+    color: white;
+    font-size: 12px;
+    font-family: 400;
+    margin: 0rpx 20rpx;
+}

@@ -1,0 +1,4 @@
+<!--pages/componts/colorBtn.wxml-->
+<view class="container">
+    <view class="titleView">{{title}}</view>
+</view>
