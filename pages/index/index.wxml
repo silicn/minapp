@@ -12,7 +12,6 @@
 
    <view class="page_bd page_tqhk">
        <view style="font-size:15px; font-weight:600"> 下月待还(元):1252.0</view>
-       <!-- <button class="weui-btn btn" size="mini" bindtap="tiqianhuankuan">提前还款</button> -->
        <colorBtn title = "提前还款" bindtap="goToMineBill"></colorBtn>
     </view>
 
