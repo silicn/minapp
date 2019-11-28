@@ -8,7 +8,8 @@
     "pages/login/login",
     "pages/mine/detail",
     "pages/setting/setting",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/repayment/repayment"
   ],
   "window": {
     "backgroundTextStyle": "light",

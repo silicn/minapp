@@ -19,9 +19,24 @@
   <view class="page_bd">
     <!-- 我的账单 -->
     <scroll-view class="weui-scrollview mine_order"  scroll-x="{{true}}"scroll-with-animation="{{true}}" >
-        <billView class="item" title="我的账单" color="#EFFAFF" subTitle="还款日11月11日" bind:btnAction="gotoSee" bind:billAction="goToMineBill"></billView>
-        <billView class="item" title="设置分期" color="#FFF8EE" btnTitle="去设置" subTitle="不分期" showBill="true"></billView>
-        <billView class="item" title="定时还款" btnTitle="去还款"></billView>
+        <billView class="item" 
+                  title="我的账单" 
+                  color="#EFFAFF" 
+                  subTitle="还款日" 
+                  bind:btnAction="gotoSee" 
+                  bind:billAction="goToMineBill"/>
+        <billView class="item" 
+                  title="设置分期" 
+                  color="#FFF8EE" 
+                  btnTitle="去设置" 
+                  subTitle="不分期" 
+                  bind:btnAction="gotoSee" 
+                  bindtap="goToMineBill"></billView>
+        <billView class="item" 
+                  title="定时还款" 
+                  btnTitle="去还款" 
+                  subTitle="测试一下" 
+                  showBill = "{{false}}" ></billView>
     </scroll-view>
 
     <!-- 我的额度 -->

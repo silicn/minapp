@@ -7,7 +7,10 @@ Component({
     title:String,
     subTitle:String,
     btnTitle:String,
-    showBill:Boolean,
+    showBill:{
+      type:Boolean,
+      value: true
+    },
     color:String
   },
 
@@ -15,8 +18,6 @@ Component({
    * 组件的初始数据
    */
   data: {
-    showBill:true,
-    color:"white"
   },
 
   /**

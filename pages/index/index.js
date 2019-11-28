@@ -38,11 +38,9 @@ Page({
   })
   },
   goToMineBill:function(){
-    wx.showToast({
-      title: '我的账单',
-      icon: 'success',
-      duration: 3000
-  })
+    wx.navigateTo({
+      url:"../repayment/repayment"
+    })
   },
 
   onLoad: function () {
