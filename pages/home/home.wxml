@@ -1,6 +1,5 @@
 <!--pages/home/home.wxml-->
 <view class="page">
-<view class="page_bd">
-    
-</view>
+    <view class="header"></view>
+    <view class="body"></view>
 </view>

@@ -74,37 +74,23 @@
   width: 50%
 }
 
-.card_type{
-  display: inline-block;
-  background:#F7F7F7;
-  width: 33%;
-}
 
 .mine_limit{
   margin: 20rpx 0rpx;
-}
-.mine_limit_bd{
-  background-color:#F7F7F7;
-  padding:20rpx;
-  border-radius: 10rpx;
-}
-.mine_limit_use{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.mine_limit_progress{
-  padding: 20rpx;
-  background-color: #F9F3DD;
-  border-radius: 10rpx;
-  margin-top: 20rpx;
 }
 
 .bindcard_content{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 8px 0px;
+}
+
+.card_type{
+  display: inline-block;
+  background:#F7F7F7;
+  width: 30%;
+  border-radius: 10rpx;
 }
 
 page{

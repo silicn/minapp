@@ -1,0 +1,18 @@
+<!--pages/componts/limit_info.wxml-->
+<view class="container">
+    <view class="top">
+        <view class="top_item">
+            <view class="item_title">已用额度(元)</view>
+            <view class="item_amount">1888.00</view>
+        </view>
+        <view class="top_item">
+            <view class="item_title">剩余额度(元)</view>
+            <view class="item_amount">2112.00</view>
+        </view>
+    </view>
+    <progress percent="30" active-color="red" class="progress"/>
+    <view class="bottom">
+        <view class="bottom_time">11月20日 20:17</view>
+        <view class="bottom_content">一条信息来自商城</view>
+    </view>
+</view>

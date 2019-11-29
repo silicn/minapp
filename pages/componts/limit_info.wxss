@@ -1,0 +1,42 @@
+/* pages/componts/limit_info.wxss */
+
+
+.container{
+    background: #F7F7F7;
+    border-radius: 20rpx;
+    padding: 16px 10px;
+    margin: 8px 0px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item_title{
+    font-size:12px;
+    color:#999;
+}
+
+.item_amount{
+    font-size:12px;
+    color:#666;
+}
+
+.bottom{
+    padding: 20rpx;
+    background-color: #F9F3DD;
+    border-radius: 10rpx;
+    margin-top: 20rpx;
+}
+
+.bottom_time{
+    font-size:8px;
+    color:#EBB45F
+}
+
+.bottom_content{
+    font-size:10px;
+    color:#EBB45F
+}

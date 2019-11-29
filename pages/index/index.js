@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '乌龟小土豆',
+    motto: '真享花',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
@@ -41,6 +41,10 @@ Page({
     wx.navigateTo({
       url:"../repayment/repayment"
     })
+  },
+
+  onRefresh:function(){
+
   },
 
   onLoad: function () {
