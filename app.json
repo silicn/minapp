@@ -9,7 +9,8 @@
     "pages/mine/detail",
     "pages/setting/setting",
     "pages/about/about",
-    "pages/repayment/repayment"
+    "pages/repayment/repayment",
+    "pages/home/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

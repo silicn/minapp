@@ -1,8 +1,8 @@
 <!--pages/home/home.wxml-->
-<view class="page">
+<view class="page page_hd">
     <view class="header">
         <mp-cells>
-            <mp-cell hover wx:for="{{dataSource}}" wx:key="{{item}}" style="font-size:14px">
+            <mp-cell hover wx:for="{{dataSource}}" wx:key="{{item}}" style="font-size:14px" bind:tap="goToDetail" data-obj="{{item}}">
                 <cell-view name = "{{item.title}}" time="{{item.created_name}}" content="{{item.content}}"></cell-view>
             </mp-cell>
         </mp-cells>

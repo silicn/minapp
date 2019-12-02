@@ -1,0 +1,34 @@
+/* pages/home/detail.wxss */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20rpx;
+}
+
+.cell_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cell_title{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cell_time{
+    color: #666;
+    font-size: 13px;
+}
+
+.text{
+    color: #333;
+    font-size: 14px;
+    margin-top:10px;
+}
+
+.page_hd{
+    background-color: white;
+}

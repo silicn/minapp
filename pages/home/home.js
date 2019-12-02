@@ -57,6 +57,17 @@ Page({
 
   },
 
+  goToDetail:function(e){
+    if (e.currentTarget.dataset.obj) {
+      let a = e.currentTarget.dataset.obj;
+      let b = {"name":a.title,"time":a.created_name,"content":a.content};
+      wx.navigateTo({
+        url:"../home/detail?obj=" + JSON.stringify(b)
+      })
+    }
+    
+  },
+
   /**
    * 生命周期函数--监听页面隐藏
    */
