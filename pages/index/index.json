@@ -3,7 +3,8 @@
     "billView":"../components/mine_bill",
     "cardType":"../components/cardType",
     "colorBtn":"../components/colorBtn",
-    "mineLimit":"../components/limit_info"
+    "mineLimit":"../components/limit_info",
+    "cardView":"../components/card/card"
   },
   "navigationBarTitleText":"享花卡"
 }

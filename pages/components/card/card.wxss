@@ -1,0 +1,27 @@
+/* pages/components/card/card.wxss */
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* justify-content: center;
+    align-content: center; */
+    background: linear-gradient(to right,#FF5A4B,#FF6E73);
+    border-radius: 20rpx;
+    margin: 8px 20px;
+    padding: 10px;
+    height: 360rpx;
+  }
+
+  .image{
+      height: 40rpx;
+      width: 200rpx;
+  }
+
+.title{
+    color: white;
+    font-size: 10px;
+}
+  .content{
+      color: white;
+      font-size: 14px;
+  }

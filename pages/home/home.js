@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    showSheet:Boolean,
+    groups: [
+      { text: '确认性操作', value: 1 },
+      { text: '取消性操作', type: 'warn', value: 2 }
+    ]
+    
   },
 
   /**
@@ -13,6 +18,12 @@ Page({
    */
   onLoad: function (options) {
     
+  },
+
+  tapAction:function(){
+    this.setData({
+      showSheet:true
+    })
   },
 
   /**

@@ -1,4 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "mp-cell":"../components/cell/cell",
+    "mp-cells":"../components/cells/cells",
+    "mp-sheet":"../components/actionsheet/actionsheet"
+  },
   "navigationBarTitleText":"额度管理"
 }

@@ -1,0 +1,11 @@
+<!--pages/components/card/card.wxml-->
+<view class="container">
+    <view class="card">
+        <image src = "/images/zhenxianghua.png" class="image" />
+        <view class="title" style="margin-top:10rpx">No.</view>
+        <view class="content" style="margin: 0px">262 6272 7282 888</view>
+        <view class="title" style="margin-top:12rpx">NAME</view>
+        <view class="content" style="margin-top:0rpx">胡歌</view>
+    </view>
+</view>
+
