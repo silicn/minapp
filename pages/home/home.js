@@ -9,8 +9,9 @@ Page({
     groups: [
       { text: '确认性操作', value: 1 },
       { text: '取消性操作', type: 'warn', value: 2 }
-    ]
-    
+    ],
+    dataSource:[],
+    showLoading:Boolean
   },
 
   /**
@@ -30,9 +31,25 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    this.requestData();
   },
 
+  requestData: function(){
+    this.setData({
+      showLoading:true
+    })
+    var self = this;
+    wx.request({
+      url:"https://www.ratjin.com/rat/topic/list",
+      success(res){
+        console.log(res.data.list);
+        self.setData({
+          dataSource:res.data.list,
+          showLoading:false
+        })
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

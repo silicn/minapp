@@ -2,7 +2,9 @@
   "usingComponents": {
     "mp-cell":"../components/cell/cell",
     "mp-cells":"../components/cells/cells",
-    "mp-sheet":"../components/actionsheet/actionsheet"
+    "mp-sheet":"../components/actionsheet/actionsheet",
+    "cell-view":"../components/homecell/homecell",
+    "mp-loading":"../components/loading/loading"
   },
   "navigationBarTitleText":"额度管理"
 }

@@ -1,0 +1,8 @@
+<!--pages/components/homecell/homecell.wxml-->
+<view class="container">
+    <view class="cell_top">
+        <view class="cell_title">{{name}}</view>
+        <view class="cell_time">{{time}}</view>
+    </view>
+    <view class="cell_content">{{content}}</view>
+</view>

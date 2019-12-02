@@ -1,0 +1,37 @@
+/* pages/components/homecell/homecell.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.cell_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cell_title{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cell_time{
+    color: #666;
+    font-size: 13px;
+}
+
+.cell_content{
+    color: #333;
+    font-size: 14px;
+    margin-top:10px;
+    /* 最多4行,否则隐藏 */
+    -webkit-line-clamp:4;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    line-height: 40rpx;
+}
+

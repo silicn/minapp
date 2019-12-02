@@ -2,11 +2,6 @@
 <view class="page">
   <!-- 头部视图 -->
   <view class="page_hd">
-
-    <!-- <view class="card">
-      <view style="margin-left:20px;color:white">15555555555</view>
-      <view style="margin-left:20px;color:white">小王在</view>
-    </view> -->
     <cardView></cardView>
   </view>
 
