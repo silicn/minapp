@@ -6,5 +6,7 @@
     "cell-view":"../components/homecell/homecell",
     "mp-loading":"../components/loading/loading"
   },
-  "navigationBarTitleText":"额度管理"
+  "navigationBarTitleText":"额度管理",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle": "dark"
 }

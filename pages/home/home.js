@@ -11,7 +11,6 @@ Page({
       { text: '取消性操作', type: 'warn', value: 2 }
     ],
     dataSource:[],
-    showLoading:Boolean
   },
 
   /**
@@ -35,17 +34,18 @@ Page({
   },
 
   requestData: function(){
-    this.setData({
-      showLoading:true
+    wx.showLoading({
+      title:"加载中..."
     })
     var self = this;
     wx.request({
       url:"https://www.ratjin.com/rat/topic/list",
       success(res){
         console.log(res.data.list);
+        wx.hideLoading();
+        wx.stopPullDownRefresh();
         self.setData({
           dataSource:res.data.list,
-          showLoading:false
         })
       }
     })
@@ -61,11 +61,11 @@ Page({
     if (e.currentTarget.dataset.obj) {
       let a = e.currentTarget.dataset.obj;
       let b = {"name":a.title,"time":a.created_name,"content":a.content};
+      wx.setStorageSync("home_detail",b);
       wx.navigateTo({
-        url:"../home/detail?obj=" + JSON.stringify(b)
+        url:"../home/detail"
       })
     }
-    
   },
 
   /**
@@ -86,7 +86,8 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+    console.log('刷新');
+    this.requestData();
   },
 
   /**
