@@ -2,7 +2,7 @@
 <view class="page">
   <!-- 头部视图 -->
   <view class="page_hd">
-    <cardView></cardView>
+    <cardView bind:freeOpen="freeOpen"></cardView>
   </view>
 
    <view class="page_bd page_tqhk">

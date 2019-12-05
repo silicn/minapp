@@ -1,10 +1,13 @@
-// pages/components/card/card.js
+// pages/components/freelabel/freeLabel.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-
+    title:{
+      type:String,
+      value:"--"
+    }
   },
 
   /**
@@ -18,8 +21,6 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    __freeOpen(){
-      this.triggerEvent("freeOpen");
-    },
+
   }
 })

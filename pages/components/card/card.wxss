@@ -3,8 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: left;
-    /* justify-content: center;
-    align-content: center; */
     background: linear-gradient(to right,#FF5A4B,#FF6E73);
     border-radius: 20rpx;
     margin: 8px 20px;
@@ -12,16 +10,28 @@
     height: 360rpx;
   }
 
-  .image{
-      height: 40rpx;
-      width: 200rpx;
-  }
+.image{
+    height: 50rpx;
+    width: 100rpx;
+}
 
 .title{
     color: white;
     font-size: 10px;
+    margin-top: 10rpx;
+    padding: 0rpx;
 }
-  .content{
-      color: white;
-      font-size: 14px;
-  }
+.content{
+    color: white;
+    font-size: 14px;
+    margin-top: 0rpx;
+}
+
+.card_bottom{
+    margin-top: 25rpx;
+    padding: 20rpx 0rpx;
+}
+
+.label{
+    width: 55%;
+}

@@ -43,6 +43,14 @@ Page({
     })
   },
 
+  freeOpen:function(){
+    wx.showToast({
+      title: '开通成功',
+      icon: 'success',
+      duration: 2000
+  })
+  },
+
   onRefresh:function(){
 
   },
