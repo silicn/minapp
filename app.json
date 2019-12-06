@@ -10,7 +10,8 @@
     "pages/setting/setting",
     "pages/about/about",
     "pages/repayment/repayment",
-    "pages/home/detail"
+    "pages/home/detail",
+    "pages/opencard/opencard"
   ],
   "window": {
     "backgroundTextStyle": "light",

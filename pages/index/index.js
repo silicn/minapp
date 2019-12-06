@@ -44,11 +44,9 @@ Page({
   },
 
   freeOpen:function(){
-    wx.showToast({
-      title: '开通成功',
-      icon: 'success',
-      duration: 2000
-  })
+   wx.navigateTo({
+     url:"../opencard/opencard"
+   })
   },
 
   onRefresh:function(){

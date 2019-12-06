@@ -1,0 +1,7 @@
+<!--pages/opencard/opencard.wxml-->
+<view class="page page__up">
+    <view class="tip">拍摄您的二代身份证</view>
+    <idcard class="id_card" title = "请拍摄身份证正面"></idcard>
+    <idcard class="id_card" title = "请拍摄身份证反面"></idcard>
+    <grad-button title = "提  交" class="commit_btn" bindtap = "commit_action"></grad-button>
+</view>

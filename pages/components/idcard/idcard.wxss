@@ -1,0 +1,27 @@
+/* pages/components/idcard/idcard.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 260rpx;
+    border-radius: 10rpx;
+    background-color: lightgrey;
+    margin: 30rpx 0rpx;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.add_circle{
+    margin-top: 10rpx;
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 60rpx;
+    background-color:#FF5A4B ;
+}
+
+.title{
+    margin:20rpx 0rpx;
+    font-size: 15px;
+    color: #666666;
+
+}

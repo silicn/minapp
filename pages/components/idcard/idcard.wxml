@@ -1,0 +1,5 @@
+<!--pages/components/idcard/idcard.wxml-->
+<view class="container">
+    <view class="add_circle"></view>
+    <view class="title">{{title}}</view>
+</view>

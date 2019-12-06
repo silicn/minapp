@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "idcard":"../components/idcard/idcard",
+    "grad-button":"../components/colorBtn"
+  },
+  "navigationBarTitleText":"身份证提交"
+}
