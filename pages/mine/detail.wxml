@@ -1,2 +1,12 @@
 <!--pages/mine/detail.wxml-->
-<text>pages/mine/detail.wxml</text>
+<view class="page">
+    <mp-cells>
+        <mp-cell value = "姓名" footer = "小明"></mp-cell>
+        <mp-cell value = "性别" footer = "男"></mp-cell>
+        <mp-cell value = "手机号码" footer = "155666888"></mp-cell>
+    </mp-cells>
+    <view class="section_line"></view>
+    <mp-cells>
+        <mp-cell hover link value = "银行卡管理"></mp-cell>
+    </mp-cells>
+</view>

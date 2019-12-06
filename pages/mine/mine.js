@@ -10,6 +10,11 @@ Page({
     list:[],
     userInfo:{},
     hasUserinfo:false,
+    showSheet:false,
+    actions:[
+      {text:"拍照",value:1},
+      {text:"从相册中选取",value:2}
+    ]
   },
 
   /**
@@ -40,6 +45,17 @@ Page({
       icon: 'success',
       duration: 3000
   });
+  },
+
+  changeAvatar:function(){
+    this.setData({
+      showSheet:true
+    })
+  },
+  closesheet:function(){
+    this.setData({
+      showSheet:false
+    })
   },
 
 

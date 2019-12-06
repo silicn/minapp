@@ -11,7 +11,9 @@
     "pages/about/about",
     "pages/repayment/repayment",
     "pages/home/detail",
-    "pages/opencard/opencard"
+    "pages/opencard/opencard",
+    "pages/mine/helpcenter",
+    "pages/mine/feedback"
   ],
   "window": {
     "backgroundTextStyle": "light",

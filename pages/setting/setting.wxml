@@ -33,8 +33,7 @@
               <view class="weui-actionsheet__title-text">您确认要退出登录吗</view>
           </view>
           <view class="weui-actionsheet__menu">
-              <view class="weui-actionsheet__cell">确认</view>
-              <view class="weui-actionsheet__cell weui-actionsheet__cell_warn" bindtap="closeDialog">取消</view>
+              <view class="weui-actionsheet__cell">确认退出</view>
           </view>
           <view class="weui-actionsheet__action">
               <view class="weui-actionsheet__cell" bindtap="closeDialog">取消</view>

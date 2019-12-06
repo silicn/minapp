@@ -1,1 +1,6 @@
 /* pages/mine/detail.wxss */
+
+.section_line{
+    width: auto;
+    height: 16rpx;
+}
