@@ -34,6 +34,7 @@ Page({
   },
 
   requestData: function(){
+    // 页面loading
     wx.showLoading({
       title:"加载中..."
     })
@@ -42,11 +43,16 @@ Page({
       url:"https://www.ratjin.com/rat/topic/list",
       success(res){
         console.log(res.data.list);
+        // 隐藏loading
         wx.hideLoading();
+        // 停止刷新
         wx.stopPullDownRefresh();
         self.setData({
           dataSource:res.data.list,
         })
+      },
+      failure(){
+
       }
     })
   },
