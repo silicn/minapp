@@ -4,7 +4,8 @@
     "cardType":"../components/cardType",
     "colorBtn":"../components/colorBtn",
     "mineLimit":"../components/limit_info",
-    "cardView":"../components/card/card"
+    "cardView":"../components/card/card",
+    "mp-actionSheet": "../components/actionsheet/actionsheet"
   },
   "navigationBarTitleText":"享花卡"
 }

@@ -1,6 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "freeLabel":"../components/freelabel/freeLabel"
+    "freeLabel":"../freelabel/freeLabel"
   }
 }

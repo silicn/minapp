@@ -8,7 +8,13 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
-    show:true
+    show:false,
+    showActionsheet:false,
+    groups: [
+      { text: '示例菜单', value: 1 },
+      { text: '示例菜单', value: 2 },
+      { text: '负向菜单', type: 'warn', value: 3 }
+  ]
   },
   //事件处理函数
   bindViewTap: function() {
@@ -18,17 +24,21 @@ Page({
   },
 
   tiqianhuankuan:function(){
-    if (this.data.show) {
-      this.setData({
-        show:false
-      })
-    }else{
-      this.setData({
-        show:true
-      })
-    }
+    console.log("dianjai");
+    this.setData({
+      showActionsheet:true
+    })
     
   },
+  close: function () {
+    this.setData({
+        showActionsheet: false
+    })
+},
+btnClick(e) {
+    console.log(e)
+    this.close()
+},
 
   gotoSee:function(){
     wx.showToast({
